@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+    
+    function klik(){
+      // const nama = prompt('halo nama kamu siapa ?');
+
+                  // alert('halo' + ' ' + nama + ' ' + 'nama aku mimin kepo, salam kenal' + ' ' + ' ' + nama);
+                  // prompt('sebutkan ibu kota indonesia');
+
+                  // prompt('kalau boleh tau' + ' ' + nama + ' '+ 'Sekolah, Kuliah apa Udah kerja ni ?');
+
+                  // alert('ooo gitu');
+
+                  // prompt('btw' + ' ' + nama + ' ' + 'lagi ngapain ni sekarang?');
+
+                  // alert('ooo gt' + ' ' + nama);
+
+                  // alert('ok deh' + ' ' + nama);
+
+      //   const text = "selamat " + " " + nama + " " + "kamu mendapat nilai 5";
+
+      // const warna = document.getElementById('kiri').innerHTML = text;
+
+    const warna = "<em style='color:red'>Oops..! SALAH</em>";
+  
+    const masukanKata = document.getElementById('masukanKata').innerHTML = warna;
+
+    const kata = document.getElementById('tebak').innerHTML = masukanKata;
+
+    }
+
+  </script>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Portfolio</title>
+
+    <!-- Bootstrap -->
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="css/style.css">   -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  <style>
+    
+    .about{
+      text-align: center;
+    }
+
+    h1{
+      text-align: center;
+
+    }
+
+    .about h3{
+      font-family: Arial;
+    }
+
+    .about #tebak li{
+      margin-right: 20px;
+      display: inline-block;
+      color: blue;
+    }
+
+    input{
+      margin-top: 40px;
+      padding: 10px;
+      width: 200px;
+      font-size: 14px;
+    }
+    
+    button{
+      width: 200px;
+      height: 40px;
+      font-size: 17px;
+
+    }
+
+    button:hover{
+      cursor: pointer;
+    }
+
+    footer{
+      text-align: center;
+    }
+
+  </style>
+  
+  <body>
+
+<section class="about" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Mulai Kepoin Yuk</h1>
+        <hr>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <h3><em>Sebutkan berapakah jumlah taman yang ada di kota Lebak-Banten ?</em></h3>
+        <ol id="tebak">
+
+          <li><b>a.</b> 7</li>
+          <li><b>b.</b> 5</li>
+          <li><b>c.</b> 20</li>
+          <li><b>d.</b> 10</li>
+        
+        </ol>
+
+      </div>
+
+        <input type="text" id="masukanKata" placeholder="masukan jawaban . . ." autofocus=""><br><br>
+        <button onclick="klik();">Mulai Kepo</button>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- akhir about -->
+
+<!-- footer -->
+<footer>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-sm-12">
+       <p>Hak Cipta | pandi net 12 | 2018</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <a href="" class="btn btn-danger"><i class="glyphicon glyphicon-triangle-right"></i>Subscribe YouTube</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+<!-- akhir footer -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

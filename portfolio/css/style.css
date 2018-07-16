@@ -1,0 +1,97 @@
+html{
+	position: relative;
+}
+
+body{
+	margin-bottom: 100px;
+}
+
+.navbar{
+	margin-bottom: 200px;
+}
+
+.jumbotron{
+	margin-top: 20px;
+	background-image: url(../img/matahari-2.png);
+	background-size: cover;
+	background-position: 0 -120px;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+
+.jumbotron img{
+	margin-top: 20px;
+	width: 180px;
+	border: 3px solid #fff;
+}
+
+.jumbotron h1{
+	font-family: Aladin;
+	color: #fff;
+}
+
+.jumbotron p{
+	color: #fff;
+}
+
+hr{
+	width: 200px;
+	border-top: 2px solid #666;
+}
+
+.about{
+	min-height: 400px;
+}
+
+.kiri, .kanan{
+	opacity: 0;
+	transform: translate(-50px, 0);
+	transition: 2s;
+}
+
+.kanan{
+	transform: translate(50px, 0);
+}
+
+.kiri.Kview, .kanan.Kview{
+	opacity: 1;
+	transform: translate(0.0);
+}
+
+.portfolio .img-rounded{
+	opacity: 0;
+	transition: 1s;
+}
+
+.portfolio .img-rounded.muncul{
+	opacity: 1;
+	transform: translate(0.0);
+}
+
+.portfolio {
+	min-height: 800px;
+}
+
+.portfolio img{
+	width: 350px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+.contact{
+	min-height: 800px;
+}
+
+footer{
+	background-color: #000;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	height: 130px;
+}
+
+footer p{
+	color: #aaa;
+	font-size: 17px;
+	margin-top: 30px;
+}
